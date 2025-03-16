@@ -35,7 +35,7 @@ function App() {
       <img
         src="coaching.jpg"
         alt=""
-        className="aspect-video w-full object-cover md:aspect-[16/7]"
+        className="aspect-video w-full object-cover md:aspect-16/7"
       />
       <About refs={sectionRefs} ref={sectionRefs.about} />
       <Testimonial />
