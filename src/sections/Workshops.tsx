@@ -1,4 +1,4 @@
-import { Ref, forwardRef } from "react";
+import { forwardRef, Ref } from "react";
 
 import { workshops } from "../content/workshops";
 
@@ -28,3 +28,5 @@ export const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
     </div>
   );
 });
+
+Workshops.displayName = "Workshops";

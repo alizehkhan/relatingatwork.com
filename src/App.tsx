@@ -1,4 +1,5 @@
-// eslint-disable-next-line import/no-unresolved
+import "./index.css";
+
 import { Analytics } from "@vercel/analytics/react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
@@ -14,8 +15,6 @@ import { Quote1 } from "./sections/Quote1";
 import { Quote2 } from "./sections/Quote2";
 import { Testimonial } from "./sections/Testimonial";
 import { Workshops } from "./sections/Workshops";
-
-import "./index.css";
 
 function App() {
   const sectionRefs = {

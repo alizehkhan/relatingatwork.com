@@ -1,8 +1,7 @@
-import { Ref, forwardRef } from "react";
+import { forwardRef, Ref } from "react";
 
 import { Button } from "../components/Button";
 
-// eslint-disable-next-line react/display-name
 export const About = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => (
     <div className="container mx-auto py-24" id="about" ref={ref}>
@@ -37,3 +36,5 @@ export const About = forwardRef(
     </div>
   ),
 );
+
+About.displayName = "About";
