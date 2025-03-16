@@ -27,7 +27,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.14.1",
-    "@vitejs/plugin-react-swc": "^3.7.1",
+    "@vitejs/plugin-react-swc": "^3.8.0",
     "@vitest/eslint-plugin": "^1.1.37",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.5.0",
