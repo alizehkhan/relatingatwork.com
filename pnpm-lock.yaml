@@ -26,10 +26,10 @@ importers:
     devDependencies:
       '@alizehkhan/eslint-config':
         specifier: ^0.1.0
-        version: 0.1.0(@eslint/js@9.22.0)(@tanstack/eslint-plugin-query@5.68.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@vitest/eslint-plugin@1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react@7.37.4(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-simple-import-sort@12.1.1(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-testing-library@7.1.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(globals@16.0.0)(typescript-eslint@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))
+        version: 0.1.0(@eslint/js@9.23.0)(@tanstack/eslint-plugin-query@5.68.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@vitest/eslint-plugin@1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react@7.37.4(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-simple-import-sort@12.1.1(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-testing-library@7.1.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(globals@16.0.0)(typescript-eslint@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))
       '@eslint/js':
-        specifier: ^9.22.0
-        version: 9.22.0
+        specifier: ^9.23.0
+        version: 9.23.0
       '@tailwindcss/postcss':
         specifier: ^4.0.14
         version: 4.0.14
@@ -310,6 +310,10 @@ packages:
 
   '@eslint/js@9.22.0':
     resolution: {integrity: sha512-vLFajx9o8d1/oL2ZkpMYbkLv8nDB6yaIwFNt7nI4+I80U/z03SxmfOMsLbvWr3p7C+Wnoh//aOu2pQW8cS0HCQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@9.23.0':
+    resolution: {integrity: sha512-35MJ8vCPU0ZMxo7zfev2pypqTwWTofFZO6m4KAtdoFhRpLJUpHTZZ+KB3C7Hb1d7bULYwO4lJXGCi5Se+8OMbw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.6':
@@ -2074,9 +2078,9 @@ snapshots:
 
   '@aashutoshrathi/word-wrap@1.2.6': {}
 
-  '@alizehkhan/eslint-config@0.1.0(@eslint/js@9.22.0)(@tanstack/eslint-plugin-query@5.68.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@vitest/eslint-plugin@1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react@7.37.4(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-simple-import-sort@12.1.1(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-testing-library@7.1.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(globals@16.0.0)(typescript-eslint@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))':
+  '@alizehkhan/eslint-config@0.1.0(@eslint/js@9.23.0)(@tanstack/eslint-plugin-query@5.68.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@vitest/eslint-plugin@1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-react@7.37.4(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-simple-import-sort@12.1.1(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-testing-library@7.1.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(globals@16.0.0)(typescript-eslint@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))':
     dependencies:
-      '@eslint/js': 9.22.0
+      '@eslint/js': 9.23.0
       '@tanstack/eslint-plugin-query': 5.68.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
       '@vitest/eslint-plugin': 1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
       eslint: 9.22.0(jiti@2.4.2)
@@ -2203,6 +2207,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@9.22.0': {}
+
+  '@eslint/js@9.23.0': {}
 
   '@eslint/object-schema@2.1.6': {}
 

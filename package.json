@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@alizehkhan/eslint-config": "^0.1.0",
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.23.0",
     "@tailwindcss/postcss": "^4.0.14",
     "@tanstack/eslint-plugin-query": "^5.68.0",
     "@types/react": "^19.0.10",
