@@ -30,7 +30,7 @@
     "@typescript-eslint/parser": "^8.26.1",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "@vitest/eslint-plugin": "^1.1.37",
-    "eslint": "^9.22.0",
+    "eslint": "^9.23.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
