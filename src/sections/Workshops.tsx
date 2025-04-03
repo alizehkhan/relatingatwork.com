@@ -5,7 +5,7 @@ import { workshops } from "../content/workshops";
 export const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="container py-24 text-gray-600" ref={ref} id="workshops">
-      <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
+      <h2 className="mb-8 text-sm font-semibold tracking-wider text-gray-500 uppercase">
         Workshops
       </h2>
       <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl md:leading-[1.275]">
@@ -16,7 +16,7 @@ export const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         {workshops.map((topic, index) => (
           <div
             key={index}
-            className="rounded-md border border-gray-200 bg-gray-50 px-4 py-6 text-center"
+            className="rounded-md bg-gray-50 px-4 py-6 text-center shadow"
           >
             <p className="mb-2 font-serif text-xl font-semibold">
               {topic.title}
