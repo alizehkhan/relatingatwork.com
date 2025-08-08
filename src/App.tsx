@@ -22,6 +22,7 @@ function App() {
     approach: useRef(null),
     workshops: useRef(null),
     about: useRef(null),
+    testimonials: useRef(null),
     contact: useRef(null),
   };
 
@@ -39,7 +40,7 @@ function App() {
         className="aspect-video w-full object-cover md:aspect-16/7"
       />
       <About refs={sectionRefs} ref={sectionRefs.about} />
-      <TestimonialMojo />
+      <TestimonialMojo ref={sectionRefs.testimonials} />
       <ReactPlayer
         url="workshop.mp4"
         playing

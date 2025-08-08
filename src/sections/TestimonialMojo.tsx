@@ -1,6 +1,8 @@
-export const TestimonialMojo = () => {
+import { forwardRef, Ref } from "react";
+
+export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
-    <div className="bg-gray-100 py-16 text-gray-500">
+    <div className="bg-gray-100 py-16 text-gray-500" ref={ref}>
       <div className="mx-auto max-w-xl px-6">
         <p className="mb-4 font-serif text-3xl font-semibold">
           Effective, energising, and unforgettable
@@ -55,4 +57,6 @@ export const TestimonialMojo = () => {
       </div>
     </div>
   );
-};
+});
+
+TestimonialMojo.displayName = "TestimonialMojo";
