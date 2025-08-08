@@ -13,7 +13,8 @@ import { Hero } from "./sections/Hero";
 import { Offering } from "./sections/Offering";
 import { Quote1 } from "./sections/Quote1";
 import { Quote2 } from "./sections/Quote2";
-import { Testimonial } from "./sections/Testimonial";
+import { TestimonialFinanztip } from "./sections/TestimonialFinanztip";
+import { TestimonialMojo } from "./sections/TestimonialMojo";
 import { Workshops } from "./sections/Workshops";
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
         className="aspect-video w-full object-cover md:aspect-16/7"
       />
       <About refs={sectionRefs} ref={sectionRefs.about} />
-      <Testimonial />
+      <TestimonialMojo />
       <ReactPlayer
         url="workshop.mp4"
         playing
@@ -47,6 +48,7 @@ function App() {
         width="100%"
         height="100%"
       />
+      <TestimonialFinanztip />
       <Contact ref={sectionRefs.contact} />
       <Footer />
       <Analytics />

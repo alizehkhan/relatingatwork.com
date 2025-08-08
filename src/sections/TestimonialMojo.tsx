@@ -1,4 +1,4 @@
-export const Testimonial = () => {
+export const TestimonialMojo = () => {
   return (
     <div className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
