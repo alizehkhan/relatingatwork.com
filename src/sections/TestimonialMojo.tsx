@@ -1,12 +1,25 @@
+import { IconBuildings } from "@tabler/icons-react";
 import { forwardRef, Ref } from "react";
 
 export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="bg-gray-100 py-16 text-gray-500" ref={ref}>
       <div className="mx-auto max-w-xl px-6">
-        <p className="mb-4 font-serif text-3xl font-semibold">
+        <p className="font-serif text-3xl font-semibold">
           Effective, energising, and unforgettable
         </p>
+        <div className="my-3 flex gap-2">
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            <IconBuildings size={20} />
+            In-person
+          </div>
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            Mojo
+          </div>
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            Germany 🇩🇪
+          </div>
+        </div>
         <blockquote>
           <q>
             <p className="mb-4">

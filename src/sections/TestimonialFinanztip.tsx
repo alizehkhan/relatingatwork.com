@@ -1,3 +1,5 @@
+import { IconVideo } from "@tabler/icons-react";
+
 export const TestimonialFinanztip = () => {
   return (
     <div className="bg-gray-100 py-16 text-gray-500">
@@ -5,6 +7,18 @@ export const TestimonialFinanztip = () => {
         <p className="mb-4 font-serif text-3xl font-semibold">
           Learning to express needs — and enjoying it
         </p>
+        <div className="my-3 flex gap-2">
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            <IconVideo size={20} />
+            Online
+          </div>
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            Finanztip
+          </div>
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            🇩🇪 Germany
+          </div>
+        </div>
         <blockquote>
           <q>
             <p className="mb-4">
@@ -44,8 +58,8 @@ export const TestimonialFinanztip = () => {
               <li>• and how to make those conversations less stressful</li>
             </ul>
             <p className="mt-4">
-              A big thank you to Haneen Khan for leading such a powerful session
-              — and to LOTARO and Finanztip for making it possible.
+              A big thank you to Haneen Khan for leading such a powerful
+              session.
             </p>
           </q>
           <cite className="mt-4 block font-semibold">
