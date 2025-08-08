@@ -8,16 +8,16 @@ export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         <p className="font-serif text-3xl font-semibold">
           Effective, energising, and unforgettable
         </p>
-        <div className="my-3 flex gap-2">
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+        <div className="my-3 flex flex-wrap gap-1">
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
             <IconBuildings size={20} />
             In-person
           </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
-            Mojo
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
+            United Kingdom 🇬🇧
           </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
-            Germany 🇩🇪
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
+            Mojo – AI-powered Therapists for Dating, Sex, and Relationships
           </div>
         </div>
         <blockquote>

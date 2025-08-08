@@ -7,16 +7,16 @@ export const TestimonialFinanztip = () => {
         <p className="mb-4 font-serif text-3xl font-semibold">
           Learning to express needs — and enjoying it
         </p>
-        <div className="my-3 flex gap-2">
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+        <div className="my-3 flex flex-wrap gap-1">
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
             <IconVideo size={20} />
             Online
           </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
-            Finanztip
-          </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
             🇩🇪 Germany
+          </div>
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
+            Finanztip – Germany's money guide
           </div>
         </div>
         <blockquote>
