@@ -5,6 +5,10 @@ export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="bg-gray-100 py-16 text-gray-500" ref={ref}>
       <div className="mx-auto max-w-xl px-6">
+        <img src="/mojo.svg" className="h-10" alt="" />
+        <div className="my-2 text-xs font-semibold tracking-wide uppercase">
+          Mojo – AI-powered therapists for dating, sex, and relationships
+        </div>
         <p className="font-serif text-3xl font-semibold">
           Effective, energising, and unforgettable
         </p>
@@ -15,9 +19,6 @@ export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
           </div>
           <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
             United Kingdom 🇬🇧
-          </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
-            Mojo – AI-powered Therapists for Dating, Sex, and Relationships
           </div>
         </div>
         <blockquote>
@@ -62,11 +63,18 @@ export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
               Thank you, Haneen!
             </p>
           </q>
-          <cite className="mt-4 block font-semibold">
-            — Grace Willatt, Science Lead
-          </cite>
+          <div className="flex items-center gap-4">
+            <img
+              src="/grace.jpeg"
+              alt=""
+              className="size-12 rounded-full border-2 border-gray-700"
+            />
+            <cite className="block">
+              <p className="font-bold">Grace Willatt</p>
+              <p>Science Lead</p>
+            </cite>
+          </div>
         </blockquote>
-        <img src="/mojo.svg" className="mt-4 h-10" alt="" />
       </div>
     </div>
   );

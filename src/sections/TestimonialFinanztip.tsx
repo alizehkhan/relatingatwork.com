@@ -4,6 +4,10 @@ export const TestimonialFinanztip = () => {
   return (
     <div className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
+        <img src="/finanztip.jpg" className="h-10" alt="" />
+        <div className="my-2 text-xs font-semibold tracking-wide uppercase">
+          Finanztip – Germany's money guide
+        </div>
         <p className="mb-4 font-serif text-3xl font-semibold">
           Learning to express needs — and enjoying it
         </p>
@@ -14,9 +18,6 @@ export const TestimonialFinanztip = () => {
           </div>
           <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
             🇩🇪 Germany
-          </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
-            Finanztip – Germany's money guide
           </div>
         </div>
         <blockquote>
@@ -58,15 +59,21 @@ export const TestimonialFinanztip = () => {
               <li>• and how to make those conversations less stressful</li>
             </ul>
             <p className="mt-4">
-              A big thank you to Haneen Khan for leading such a powerful
-              session.
+              A big thank you to Haneen for leading such a powerful session.
             </p>
           </q>
-          <cite className="mt-4 block font-semibold">
-            — Aleksei Menkov, Software Engineer
-          </cite>
+          <div className="flex items-center gap-4">
+            <img
+              src="/aleksei.jpeg"
+              alt=""
+              className="size-12 rounded-full border-2 border-gray-700"
+            />
+            <cite className="block">
+              <p className="font-bold">Aleksei Menkov</p>
+              <p>Software Engineer</p>
+            </cite>
+          </div>
         </blockquote>
-        <img src="/finanztip.jpg" className="mt-4 h-10" alt="" />
       </div>
     </div>
   );
