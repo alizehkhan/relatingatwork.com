@@ -3,7 +3,6 @@ import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import { BrowserRouter } from "react-router-dom";
 
 import { Footer } from "./components/Footer";
 import { About } from "./sections/About";
@@ -27,7 +26,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <>
       <Hero refs={sectionRefs} />
       <Offering />
       <Workshops ref={sectionRefs.workshops} />
@@ -53,7 +52,7 @@ function App() {
       <Contact ref={sectionRefs.contact} />
       <Footer />
       <Analytics />
-    </BrowserRouter>
+    </>
   );
 }
 

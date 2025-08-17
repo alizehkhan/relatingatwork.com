@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom";
-
 export const Button = ({ refs }: { refs: any }) => {
   return (
-    <Link
+    <a
       className="mt-6 inline-block rounded-lg bg-amber-700 px-4 py-2 font-semibold text-white hover:bg-amber-800 active:scale-95 active:bg-amber-900"
-      to="#contact"
+      href="#contact"
       onClick={(event) => {
         event?.preventDefault();
         refs["contact"].current?.scrollIntoView({
@@ -14,6 +12,6 @@ export const Button = ({ refs }: { refs: any }) => {
       }}
     >
       Get in touch
-    </Link>
+    </a>
   );
 };
