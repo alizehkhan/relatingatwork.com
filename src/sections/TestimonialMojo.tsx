@@ -1,9 +1,8 @@
 import { IconBuildings } from "@tabler/icons-react";
-import { forwardRef, Ref } from "react";
 
-export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
+export const TestimonialMojo = () => {
   return (
-    <div className="bg-gray-100 py-16 text-gray-500" ref={ref}>
+    <div className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
         <img src="/mojo.svg" className="h-10" alt="" />
         <div className="my-2 text-xs font-semibold tracking-wide uppercase">
@@ -78,6 +77,4 @@ export const TestimonialMojo = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       </div>
     </div>
   );
-});
-
-TestimonialMojo.displayName = "TestimonialMojo";
+};

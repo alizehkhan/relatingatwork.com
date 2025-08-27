@@ -13,6 +13,7 @@ import { Offering } from "./sections/Offering";
 import { Quote1 } from "./sections/Quote1";
 import { Quote2 } from "./sections/Quote2";
 import { TestimonialFinanztip } from "./sections/TestimonialFinanztip";
+import { TestimonialHelloFresh } from "./sections/TestimonialHelloFresh";
 import { TestimonialMojo } from "./sections/TestimonialMojo";
 import { Workshops } from "./sections/Workshops";
 
@@ -32,14 +33,14 @@ function App() {
       <Workshops ref={sectionRefs.workshops} />
       <Quote1 refs={sectionRefs} />
       <Approach ref={sectionRefs.approach} />
-      <Quote2 refs={sectionRefs} />
+      <TestimonialHelloFresh />
       <img
         src="coaching.jpg"
         alt=""
         className="aspect-video w-full object-cover md:aspect-16/7"
       />
+      <Quote2 refs={sectionRefs} />
       <About refs={sectionRefs} ref={sectionRefs.about} />
-      <TestimonialMojo ref={sectionRefs.testimonials} />
       <ReactPlayer
         url="workshop.mp4"
         playing
@@ -50,6 +51,7 @@ function App() {
       />
       <TestimonialFinanztip />
       <Contact ref={sectionRefs.contact} />
+      <TestimonialMojo />
       <Footer />
       <Analytics />
     </>
