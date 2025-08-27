@@ -9,7 +9,9 @@ export const Offering = () => {
             className="h-36 w-36 rounded-full object-cover"
           />
           <div>
-            <p className="mt-4 font-serif text-3xl md:text-4xl">Workshops</p>
+            <p className="mt-4 font-serif text-3xl md:text-4xl">
+              In-person & online workshops
+            </p>
             <p className="mt-2 font-sans text-lg">
               Experiential, live team workshops for 10–100 people
             </p>

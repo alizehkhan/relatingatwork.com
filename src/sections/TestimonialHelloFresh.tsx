@@ -42,7 +42,7 @@ export const TestimonialHelloFresh = () => {
               these skills. You're in trusted hands.
             </p>
           </q>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <img
               src="/matteo.jpeg"
               alt=""

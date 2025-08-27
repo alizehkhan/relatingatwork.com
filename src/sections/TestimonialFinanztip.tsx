@@ -62,7 +62,7 @@ export const TestimonialFinanztip = () => {
               A big thank you to Haneen for leading such a powerful session.
             </p>
           </q>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <img
               src="/aleksei.jpeg"
               alt=""
