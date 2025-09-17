@@ -17,7 +17,7 @@
     "@vercel/analytics": "^1.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-player": "^2.16.0"
+    "react-player": "^3.3.2"
   },
   "devDependencies": {
     "@alizehkhan/eslint-config": "^0.1.0",
@@ -27,9 +27,9 @@
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.1",
     "@typescript-eslint/eslint-plugin": "^8.29.0",
-    "@typescript-eslint/parser": "^8.29.0",
-    "@vitejs/plugin-react-swc": "^3.8.1",
-    "@vitest/eslint-plugin": "^1.1.39",
+    "@typescript-eslint/parser": "^8.44.0",
+    "@vitejs/plugin-react-swc": "^4.1.0",
+    "@vitest/eslint-plugin": "^1.3.12",
     "eslint": "^9.33.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -44,6 +44,6 @@
     "tailwindcss": "^4.1.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.0",
-    "vite": "^6.2.5"
+    "vite": "^7.1.5"
   }
 }

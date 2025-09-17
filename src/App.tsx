@@ -43,7 +43,7 @@ function App() {
       <About refs={sectionRefs} ref={sectionRefs.about} />
       <TestimonialFinanztip />
       <ReactPlayer
-        url="workshop.mp4"
+        src="workshop.mp4"
         playing
         loop
         muted
