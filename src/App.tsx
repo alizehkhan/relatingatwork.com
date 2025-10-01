@@ -41,7 +41,7 @@ function App() {
       />
       <Quote2 refs={sectionRefs} />
       <About refs={sectionRefs} ref={sectionRefs.about} />
-      <TestimonialFinanztip />
+      <TestimonialMojo />
       <ReactPlayer
         src="workshop.mp4"
         playing
@@ -50,7 +50,7 @@ function App() {
         width="100%"
         height="100%"
       />
-      <TestimonialMojo />
+      <TestimonialFinanztip />
       <Contact ref={sectionRefs.contact} />
       <Footer />
       <Analytics />

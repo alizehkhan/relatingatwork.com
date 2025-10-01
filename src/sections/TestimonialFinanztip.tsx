@@ -9,7 +9,7 @@ export const TestimonialFinanztip = () => {
           Finanztip – Germany's money guide
         </div>
         <p className="mb-4 font-serif text-3xl font-semibold">
-          Learning to express needs — and enjoying it
+          A powerful, heart-led masterclass in expressing your needs
         </p>
         <div className="my-3 flex flex-wrap gap-1">
           <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
