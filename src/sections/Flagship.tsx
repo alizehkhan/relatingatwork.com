@@ -6,7 +6,7 @@ export const Flagship = forwardRef(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => {
     return (
-      <div className="container my-20 bg-white text-gray-600" ref={ref}>
+      <div className="container mt-12 mb-12 bg-white text-gray-600" ref={ref}>
         <div className="mx-auto max-w-[70ch] rounded-md border border-gray-200 bg-gray-100 p-8">
           <h2 className="mb-4 text-sm font-semibold tracking-wider text-gray-500 uppercase">
             Flagship Offering
@@ -15,7 +15,7 @@ export const Flagship = forwardRef(
           <p className="font-serif text-4xl">
             Mastering Difficult Conversations at Work
           </p>
-          <div className="mt-3 mb-4 flex gap-2">
+          <div className="mt-3 mb-4 flex flex-wrap gap-2">
             <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
               Two hour interactive workshop
             </div>

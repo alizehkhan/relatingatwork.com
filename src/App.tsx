@@ -44,14 +44,16 @@ function App() {
       <About refs={sectionRefs} ref={sectionRefs.about} />
       <TestimonialMojo />
       <Flagship refs={sectionRefs} />
-      <ReactPlayer
-        src="workshop.mp4"
-        playing
-        loop
-        muted
-        width="100%"
-        height="100%"
-      />
+      <div className="hidden md:block">
+        <ReactPlayer
+          src="workshop.mp4"
+          playing
+          loop
+          muted
+          width="100%"
+          height="100%"
+        />
+      </div>
       <TestimonialFinanztip />
       <Contact ref={sectionRefs.contact} />
       <Footer />
