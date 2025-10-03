@@ -3,6 +3,7 @@ import { forwardRef, Ref } from "react";
 import { Button } from "../components/Button";
 
 export const Flagship = forwardRef(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => {
     return (
       <div className="container my-20 bg-white text-gray-600" ref={ref}>
