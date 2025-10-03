@@ -1,5 +1,7 @@
 import { forwardRef, Ref } from "react";
 
+import { Button } from "../components/Button";
+
 export const Flagship = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => {
     return (
@@ -52,6 +54,7 @@ export const Flagship = forwardRef(
             impact. You’ll walk away with a practical framework to use in
             real-life workplace conversations.
           </p>
+          <Button refs={refs} />
         </div>
       </div>
     );
