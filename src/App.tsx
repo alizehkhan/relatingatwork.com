@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer";
 import { About } from "./sections/About";
 import { Approach } from "./sections/Approach";
 import { Contact } from "./sections/Contact";
+import { Flagship } from "./sections/Flagship";
 import { Hero } from "./sections/Hero";
 import { Offering } from "./sections/Offering";
 import { Quote1 } from "./sections/Quote1";
@@ -42,6 +43,7 @@ function App() {
       <Quote2 refs={sectionRefs} />
       <About refs={sectionRefs} ref={sectionRefs.about} />
       <TestimonialMojo />
+      <Flagship refs={sectionRefs} />
       <ReactPlayer
         src="workshop.mp4"
         playing
