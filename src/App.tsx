@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
 
-import { Footer } from "./components/Footer";
 import { About } from "./sections/About";
 import { Approach } from "./sections/Approach";
 import { Contact } from "./sections/Contact";
@@ -56,7 +55,6 @@ function App() {
       </div>
       <TestimonialFinanztip />
       <Contact ref={sectionRefs.contact} />
-      <Footer />
       <Analytics />
     </>
   );
