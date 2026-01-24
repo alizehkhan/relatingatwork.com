@@ -1,19 +1,12 @@
-import { forwardRef, Ref } from "react";
-
 import { approaches } from "../content/approaches";
 
-// eslint-disable-next-line react/display-name
-export const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
+export const Approach = () => {
   return (
-    <div
-      className="container bg-white pt-20 pb-24 text-gray-600"
-      id="approach"
-      ref={ref}
-    >
-      <h2 className="mb-8 text-sm font-semibold tracking-wider text-gray-500 uppercase">
+    <div className="container bg-white pt-20 pb-24 text-gray-600" id="approach">
+      <h2 className="font-semibold tracking-wider text-gray-500 uppercase">
         Approach
       </h2>
-      <p className="mx-auto font-serif text-4xl leading-normal font-semibold tracking-[-1px] text-gray-600 md:text-5xl">
+      <p className="mx-auto font-serif text-4xl leading-normal font-bold tracking-[-1px] text-gray-600 md:text-6xl">
         My approach uses a blend of
       </p>
       <div className="mx-auto mt-12 grid grid-cols-1 items-center gap-8 md:grid-cols-2">
@@ -38,4 +31,4 @@ export const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       </div>
     </div>
   );
-});
+};

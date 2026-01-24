@@ -1,7 +1,6 @@
 import "./index.css";
 
 import { Analytics } from "@vercel/analytics/react";
-import { useRef } from "react";
 import ReactPlayer from "react-player";
 
 import { About } from "./sections/About";
@@ -18,31 +17,23 @@ import { TestimonialMojo } from "./sections/TestimonialMojo";
 import { Workshops } from "./sections/Workshops";
 
 function App() {
-  const sectionRefs = {
-    approach: useRef(null),
-    workshops: useRef(null),
-    about: useRef(null),
-    testimonials: useRef(null),
-    contact: useRef(null),
-  };
-
   return (
     <>
-      <Hero refs={sectionRefs} />
+      <Hero />
       <Offering />
-      <Workshops ref={sectionRefs.workshops} />
-      <Quote1 refs={sectionRefs} />
-      <Approach ref={sectionRefs.approach} />
+      <Workshops />
+      <Quote1 />
+      <Approach />
       <TestimonialHelloFresh />
       <img
         src="coaching.jpg"
         alt=""
         className="aspect-video w-full object-cover md:aspect-16/7"
       />
-      <Quote2 refs={sectionRefs} />
-      <About refs={sectionRefs} ref={sectionRefs.about} />
+      <Quote2 />
+      <About />
       <TestimonialMojo />
-      <Flagship refs={sectionRefs} />
+      <Flagship />
       <div className="hidden md:block">
         <ReactPlayer
           src="workshop.mp4"
@@ -54,7 +45,7 @@ function App() {
         />
       </div>
       <TestimonialFinanztip />
-      <Contact ref={sectionRefs.contact} />
+      <Contact />
       <Analytics />
     </>
   );

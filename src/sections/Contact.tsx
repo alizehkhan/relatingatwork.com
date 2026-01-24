@@ -1,14 +1,13 @@
 import { IconMail } from "@tabler/icons-react";
-import { forwardRef, Ref } from "react";
 
-export const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
+export const Contact = () => {
   return (
     <div className="bg-gray-800 py-16 text-gray-100" id="contact">
       <div className="container">
         <h2 className="mb-4 font-semibold tracking-wider text-gray-300 uppercase">
           Contact
         </h2>
-        <p className="font-serif text-5xl font-semibold text-gray-200 md:text-6xl">
+        <p className="font-serif text-5xl font-bold text-gray-200 md:text-6xl">
           Get in touch
         </p>
         <p className="mt-4 max-w-xl text-xl text-gray-400">
@@ -39,6 +38,4 @@ export const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       </div>
     </div>
   );
-});
-
-Contact.displayName = "Contact";
+};

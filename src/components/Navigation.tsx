@@ -1,6 +1,6 @@
 import { LINKS } from "../content/links";
 
-export const Navigation = ({ refs }: { refs: any }) => {
+export const Navigation = () => {
   return (
     <header>
       <nav className="container mx-auto flex justify-between py-12 text-white">
@@ -10,18 +10,7 @@ export const Navigation = ({ refs }: { refs: any }) => {
         <ul className="hidden gap-8 font-semibold md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
-              <a
-                href={`#${link.to}`}
-                onClick={(event) => {
-                  event?.preventDefault();
-                  refs[link.to].current?.scrollIntoView({
-                    block: "start",
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                {link.name}
-              </a>
+              <a href={`#${link.to}`}>{link.name}</a>
             </li>
           ))}
         </ul>

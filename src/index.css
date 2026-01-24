@@ -1,30 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,600&family=Open+Sans:wght@400;600&display=swap")
-layer(base);
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 
 @import "tailwindcss";
 
-@theme {
-  --font-*: initial;
-  --font-sans: Open Sans, sans-serif;
-  --font-serif: Newsreader, serif;
+@utility container {
+  @apply mx-auto px-8;
 }
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
+@theme {
+  --font-*: initial;
+  --font-sans: "Source Sans 3", sans-serif;
+  --font-serif: "Source Serif 4", serif;
+}
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+blockquote {
+  position: relative;
+}
+
+q::before,
+q::after {
+  @apply content-[''];
 }
 
 *,

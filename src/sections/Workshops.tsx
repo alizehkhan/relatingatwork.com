@@ -5,7 +5,7 @@ import { workshops } from "../content/workshops";
 export const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="container py-24 text-gray-600" ref={ref} id="workshops">
-      <h2 className="mb-8 text-sm font-semibold tracking-wider text-gray-500 uppercase">
+      <h2 className="mb-2 font-semibold tracking-wider text-gray-500 uppercase">
         Workshops
       </h2>
       <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl md:leading-[1.275]">
